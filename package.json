@@ -1,0 +1,34 @@
+{
+  "name": "koishi-plugin-niuzi",
+  "description": "斗牛子",
+  "version": "0.0.3",
+  "author": "usfese",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "niuzi"
+  ],
+  "peerDependencies": {
+    "@satorijs/element": "*",
+    "koishi": "^4.18.0"
+  },
+  "koishi": {
+    "description": {
+      "zh": "斗牛子插件！在群里斗牛子吧！"
+    },
+    "service": {
+      "required": [
+        "database"
+      ]
+    },
+    "preview": true
+  }
+}
