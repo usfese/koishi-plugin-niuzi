@@ -1,8 +1,9 @@
 {
   "name": "koishi-plugin-niuzi",
   "description": "斗牛子",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "usfese",
+  "repository": "https://github.com/usfese/koishi-plugin-niuzi",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
