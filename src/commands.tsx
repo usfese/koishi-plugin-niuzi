@@ -61,7 +61,7 @@ export function apply(ctx: Context) {
   })
 
   ctx.command('niuzi/battle <target:user>', '与他人进行牛子决斗！').action(async ({ session }, target?) => {
-    if(!target) return '用法：battle @成员'
+    if (!target) return '用法：battle @成员'
 
     const niuzis_self = await ctx.database.get('niuzi', {
       user_id: session.userId,

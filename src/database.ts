@@ -17,7 +17,7 @@ export function apply(ctx: Context) {
     length: 'float',
     until: 'timestamp',
     workout_until: 'timestamp'
-  },{
+  }, {
     primary: 'id',
     autoInc: true,
     unique: ['name', 'user_id']

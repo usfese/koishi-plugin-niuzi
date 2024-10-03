@@ -6,7 +6,7 @@ export const name = 'niuzi'
 
 export const inject = ['database']
 
-export interface Config {}
+export interface Config { }
 
 export const Config: Schema<Config> = Schema.object({})
 
